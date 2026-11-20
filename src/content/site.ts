@@ -23,7 +23,7 @@ export const nav = [
 ];
 
 export const stats = [
-  { value: 7, suffix: "+", label: "Years delivering projects", note: "Since 2019, across the UK and Nigeria" },
+  { value: 4, suffix: "+", label: "Years delivering projects", note: "Across the UK and Nigeria" },
   { value: 15, suffix: "+", label: "Projects delivered end to end", note: "At Klipspringer Consulting" },
   { value: 95, suffix: "%", label: "Delivered on time", note: "Structured planning and cross-team coordination" },
   { value: 25, suffix: "k+", label: "Records migrated", note: "Paper to digital, with zero data loss" },
