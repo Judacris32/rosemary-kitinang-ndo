@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    overflow-x: clip;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ivory font-sans text-body antialiased;
+    overflow-x: clip;
+    font-feature-settings: "ss01", "cv11";
+  }
+  h1, h2, h3, h4 {
+    @apply text-ink;
+  }
+  ::selection {
+    @apply bg-coral text-forest-ink;
+  }
+  :focus-visible {
+    outline: 2px solid #ff6b57;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
+
+@layer components {
+  /* Accent word on light backgrounds: italic serif with a coral highlighter stroke */
+  .accent-mark {
+    @apply font-serif font-normal italic text-ink;
+    letter-spacing: -0.01em;
+    padding: 0 0.12em;
+    background-image: linear-gradient(transparent 58%, rgba(255, 107, 87, 0.42) 58%, rgba(255, 107, 87, 0.42) 92%, transparent 92%);
+    background-repeat: no-repeat;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  /* Accent word on dark backgrounds or photos: italic serif with a coral-to-mint gradient */
+  .accent-glow {
+    @apply font-serif font-normal italic;
+    letter-spacing: -0.01em;
+    padding-right: 0.08em;
+    background: linear-gradient(100deg, #ffb3a6 0%, #ff8a78 45%, #9fe3c4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-3 text-[0.72rem] font-semibold uppercase tracking-[0.22em];
+  }
+  .eyebrow::before,
+  .eyebrow::after {
+    content: "";
+    @apply block h-px w-7 bg-current opacity-60;
+  }
+  .grain {
+    background-image: radial-gradient(rgba(11, 61, 46, 0.06) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
