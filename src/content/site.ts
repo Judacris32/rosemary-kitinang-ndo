@@ -5,7 +5,7 @@ export const site = {
   shortRole: "Digital Project Manager",
   tagline: "Turning complex challenges into measurable results",
   description:
-    "Rosemary Kitinang Ndo is an award-winning Digital Transformation Project Manager in Sunderland, UK, with 7+ years delivering technology, healthcare and infrastructure projects. PRINCE2 Practitioner.",
+    "Rosemary Kitinang Ndo is an award-winning Digital Transformation Project Manager in Sunderland, UK, with 4+ years delivering technology, healthcare and infrastructure projects. PRINCE2 Practitioner.",
   email: "kitinangndo@gmail.com",
   linkedin: "https://www.linkedin.com/in/kitinang-ndo/",
   location: "Sunderland, United Kingdom",
