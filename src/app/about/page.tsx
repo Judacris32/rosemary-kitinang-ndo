@@ -18,7 +18,7 @@ import { valueIcons } from "@/lib/icons";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Rosemary Kitinang Ndo's story, values, career and qualifications: MSc Project Management, PRINCE2 Practitioner and 7+ years of project delivery.",
+  description: "Rosemary Kitinang Ndo's story, values, career and qualifications: MSc Project Management, PRINCE2 Practitioner and 4+ years of project delivery.",
   alternates: { canonical: "/about" },
 };
 
@@ -52,7 +52,7 @@ export default function AboutPage() {
                 </Reveal>
                 <Reveal>
                   <p>
-                    Over more than seven years I have delivered technology initiatives, operational improvements and strategic projects across healthcare, consulting, corporate operations and construction. My work covers planning, implementation, workflow automation, data migration, risk management, stakeholder engagement, change management and programme governance.
+                    Over more than four years I have delivered technology initiatives, operational improvements and strategic projects across healthcare, consulting, corporate operations and construction. My work covers planning, implementation, workflow automation, data migration, risk management, stakeholder engagement, change management and programme governance.
                   </p>
                 </Reveal>
                 <Reveal>
@@ -102,7 +102,7 @@ export default function AboutPage() {
         <Container>
           <SectionHeading
             eyebrow="Career"
-            title={["Seven years,", { accent: "eight roles" }]}
+            title={["Four years,", { accent: "eight roles" }]}
             intro="From public service in Nigeria to digital transformation in the UK. Every role added something to how I run projects today."
           />
           <div className="mt-16">

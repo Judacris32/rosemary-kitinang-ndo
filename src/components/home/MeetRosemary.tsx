@@ -26,7 +26,7 @@ export function MeetRosemary() {
           <div>
             <Reveal>
               <p className="border-l-4 border-coral pl-6 text-[clamp(1.4rem,2.3vw,1.9rem)] font-bold leading-[1.25] tracking-[-0.02em] text-ink">
-                I&apos;m a Digital Transformation Project Manager with more than seven years of delivering technology, operational and strategic projects across healthcare, consulting, corporate operations and construction.
+                I&apos;m a Digital Transformation Project Manager with more than four years of delivering technology, operational and strategic projects across healthcare, consulting, corporate operations and construction.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
